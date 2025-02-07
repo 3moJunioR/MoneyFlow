@@ -1,7 +1,9 @@
 ﻿@model IEnumerable<Expense_Tracker.Models.Category>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["PageTitle"] = "Categories";
+    ViewData["PageActiontext"] = "+ New Category";
+    ViewData["PageActionUrl"] = "/Category/AddOrEdit";
 }
 <div class="row">
     <div class="col-md-7">

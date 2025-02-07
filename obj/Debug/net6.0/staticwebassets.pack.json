@@ -245,6 +245,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\ZT\\source\\repos\\Expense Tracker\\Expense Tracker\\wwwroot\\photo.png",
+      "PackagePath": "staticwebassets\\photo.png"
+    },
+    {
+      "Id": "C:\\Users\\ZT\\source\\repos\\Expense Tracker\\Expense Tracker\\wwwroot\\photo_2.png",
+      "PackagePath": "staticwebassets\\photo_2.png"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Expense Tracker.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
