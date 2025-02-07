@@ -290,3 +290,4 @@ C:\Users\ZT\source\repos\Expense Tracker\Expense Tracker\bin\Debug\net6.0\runtim
 C:\Users\ZT\source\repos\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Syncfusion.EJ2.dll
 C:\Users\ZT\source\repos\Expense Tracker\Expense Tracker\bin\Debug\net6.0\Syncfusion.Licensing.dll
 C:\Users\ZT\source\repos\Expense Tracker\Expense Tracker\obj\Debug\net6.0\Expense Tracker.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ZT\source\repos\Expense Tracker\Expense Tracker\obj\Debug\net6.0\Expense Tracker.sourcelink.json
