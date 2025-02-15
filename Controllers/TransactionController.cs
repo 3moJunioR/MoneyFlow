@@ -26,12 +26,10 @@ namespace Expense_Tracker.Controllers
         }
 
         // GET: Transactions/AddOrEdit
-        public IActionResult AddOrEdit(int id = 0)
+        public IActionResult AddOrEdit()
         {
-            if (id == 0)
+                PopulateCategories();
                 return View(new Transaction());
-            else
-                return View(_context.Transactions.Find(id));
         }
 
 
@@ -69,6 +67,16 @@ namespace Expense_Tracker.Controllers
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        [NonAction]
+        public void PopulateCategories()
+        {
+            var CategoryCollection= _context.Categories.ToList();
+            Category DefaultCategory = new Category()
+            { CategoryId = 0,Title = "Choose a Category"};
+            CategoryCollection.Insert(0,DefaultCategory);
+            ViewBag.Categories = CategoryCollection;
         }
 
     }
