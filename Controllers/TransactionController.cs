@@ -26,10 +26,13 @@ namespace Expense_Tracker.Controllers
         }
 
         // GET: Transactions/AddOrEdit
-        public IActionResult AddOrEdit()
+        public IActionResult AddOrEdit(int id=0)
         {
                 PopulateCategories();
+            if (id == 0)
                 return View(new Transaction());
+            else
+                return View(_context.Transactions.Find(id));
         }
 
 
@@ -42,11 +45,14 @@ namespace Expense_Tracker.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(transaction);
+                if(transaction.TransactionId==0)
+                    _context.Add(transaction);
+                else
+                _context.Update(transaction);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", transaction.CategoryId);
+            PopulateCategories();
             return View(transaction);
         }
 
