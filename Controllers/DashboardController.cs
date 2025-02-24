@@ -18,7 +18,7 @@ namespace Expense_Tracker.Controllers
         {
 
             //Last 7 Days
-            DateTime StartDate = DateTime.Today.AddDays(-6);
+            DateTime StartDate = DateTime.Today.AddDays(-30);
             DateTime EndtDate = DateTime.Today;
 
             List<Transaction> SelectedTransactions = await _context.Transactions
@@ -43,6 +43,20 @@ namespace Expense_Tracker.Controllers
             CultureInfo culture = CultureInfo.CreateSpecificCulture("en-US");
             culture.NumberFormat.CurrencyNegativePattern = 1;
             ViewBag.Balance = String.Format(culture,"{0:C0}",Balance);
+
+            //RoundedCorner chart - Expense By Category
+            ViewBag.RoundedChartData = SelectedTransactions
+                .Where(i => i.Category.Type == "Expense")
+                .GroupBy(j => j.Category.CategoryId)
+                .Select(k => new
+                {
+                    categoryTitleWithIcon= k.First().Category.Icon+ " "+ k.First().Category.Title,
+                    amount = k.Sum(j => j.Ammount),
+                    formattedAmount= k.Sum(j => j.Ammount).ToString("C0"),
+                })
+                .OrderByDescending(l=>l.amount)
+                .ToList();
+                    
 
 
             return View();
