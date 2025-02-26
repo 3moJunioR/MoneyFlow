@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wi8kz78K9gS4gb+0+djWJV0++vvZaE7veNFKbloXTCI=",
+  "Hash": "vHAPq9PixMJQSdXUlEtd9Wt1i6SZOnOkPih4UmdF+BA=",
   "Source": "Expense Tracker",
   "BasePath": "_content/Expense Tracker",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "i1qx0kf8ug",
-      "Integrity": "FsI+05TohRNrO4Eu0ZhnComKYbdtNyvF43zgHsP2hSc=",
+      "Fingerprint": "4ard3drui9",
+      "Integrity": "XDLpT41TOYkCaYAe8Nc16FsabEIPj8IEqzIPLjU5V3U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1384,6 +1384,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.4ard3drui9.css",
+      "AssetFile": "C:\\Users\\ZT\\source\\repos\\Expense Tracker\\Expense Tracker\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XDLpT41TOYkCaYAe8Nc16FsabEIPj8IEqzIPLjU5V3U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 18:47:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ard3drui9"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XDLpT41TOYkCaYAe8Nc16FsabEIPj8IEqzIPLjU5V3U="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\ZT\\source\\repos\\Expense Tracker\\Expense Tracker\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1394,7 +1439,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2438"
+          "Value": "3503"
         },
         {
           "Name": "Content-Type",
@@ -1402,11 +1447,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FsI+05TohRNrO4Eu0ZhnComKYbdtNyvF43zgHsP2hSc=\""
+          "Value": "\"XDLpT41TOYkCaYAe8Nc16FsabEIPj8IEqzIPLjU5V3U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 16:30:01 GMT"
+          "Value": "Wed, 26 Feb 2025 18:47:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1416,52 +1461,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FsI+05TohRNrO4Eu0ZhnComKYbdtNyvF43zgHsP2hSc="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.i1qx0kf8ug.css",
-      "AssetFile": "C:\\Users\\ZT\\source\\repos\\Expense Tracker\\Expense Tracker\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2438"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FsI+05TohRNrO4Eu0ZhnComKYbdtNyvF43zgHsP2hSc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 16:30:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "i1qx0kf8ug"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FsI+05TohRNrO4Eu0ZhnComKYbdtNyvF43zgHsP2hSc="
+          "Value": "sha256-XDLpT41TOYkCaYAe8Nc16FsabEIPj8IEqzIPLjU5V3U="
         }
       ]
     },
