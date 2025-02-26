@@ -253,6 +253,10 @@
       "PackagePath": "staticwebassets\\photo_2.png"
     },
     {
+      "Id": "C:\\Users\\ZT\\source\\repos\\Expense Tracker\\Expense Tracker\\wwwroot\\prof.jpg",
+      "PackagePath": "staticwebassets\\prof.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Expense Tracker.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

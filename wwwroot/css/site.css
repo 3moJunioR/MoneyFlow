@@ -52,6 +52,32 @@ body {
     text-decoration: none !important;
     color:inherit !important;
 }
+/*NavBar*/
+nav.navbar {
+    background-color: rgba(18, 22, 29, 1);
+}
+
+    nav.navbar i {
+        padding: 10px;
+        border-radius: 50%;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+        nav.navbar i:hover, nav.navbar img:hover {
+            cursor: pointer;
+            background-color: #48545f14;
+            transform: scale(1.05) translateZ(0px);
+        }
+
+/*profile-picture*/
+img.profile-picture
+{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+}
+
 /*Radio-button-group*/
 .e-btn-group custom-rbt-group {
     width: 100%

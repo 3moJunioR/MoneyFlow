@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KIzdx/LyWZwsso+4BS8KOvuHwBmr+AMRxdppvssQdLg=",
+  "Hash": "wi8kz78K9gS4gb+0+djWJV0++vvZaE7veNFKbloXTCI=",
   "Source": "Expense Tracker",
   "BasePath": "_content/Expense Tracker",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "m5sglkjzbh",
-      "Integrity": "iucqArIQFrcIK1qSosMJFVBBzbWzXQ+tH6MSDgaxj6M=",
+      "Fingerprint": "i1qx0kf8ug",
+      "Integrity": "FsI+05TohRNrO4Eu0ZhnComKYbdtNyvF43zgHsP2hSc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1359,6 +1359,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\photo_2.png"
+    },
+    {
+      "Identity": "C:\\Users\\ZT\\source\\repos\\Expense Tracker\\Expense Tracker\\wwwroot\\prof.jpg",
+      "SourceId": "Expense Tracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ZT\\source\\repos\\Expense Tracker\\Expense Tracker\\wwwroot\\",
+      "BasePath": "_content/Expense Tracker",
+      "RelativePath": "prof#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0ri5qosfy2",
+      "Integrity": "LCjT450TEb1czY9mImCasQjRtUTDaUM5kJpHC/oNc6M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\prof.jpg"
     }
   ],
   "Endpoints": [
@@ -1373,7 +1394,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1933"
+          "Value": "2438"
         },
         {
           "Name": "Content-Type",
@@ -1381,11 +1402,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iucqArIQFrcIK1qSosMJFVBBzbWzXQ+tH6MSDgaxj6M=\""
+          "Value": "\"FsI+05TohRNrO4Eu0ZhnComKYbdtNyvF43zgHsP2hSc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 22:08:09 GMT"
+          "Value": "Wed, 26 Feb 2025 16:30:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1395,12 +1416,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-iucqArIQFrcIK1qSosMJFVBBzbWzXQ+tH6MSDgaxj6M="
+          "Value": "sha256-FsI+05TohRNrO4Eu0ZhnComKYbdtNyvF43zgHsP2hSc="
         }
       ]
     },
     {
-      "Route": "css/site.m5sglkjzbh.css",
+      "Route": "css/site.i1qx0kf8ug.css",
       "AssetFile": "C:\\Users\\ZT\\source\\repos\\Expense Tracker\\Expense Tracker\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1410,7 +1431,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1933"
+          "Value": "2438"
         },
         {
           "Name": "Content-Type",
@@ -1418,11 +1439,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iucqArIQFrcIK1qSosMJFVBBzbWzXQ+tH6MSDgaxj6M=\""
+          "Value": "\"FsI+05TohRNrO4Eu0ZhnComKYbdtNyvF43zgHsP2hSc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 22:08:09 GMT"
+          "Value": "Wed, 26 Feb 2025 16:30:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1432,7 +1453,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m5sglkjzbh"
+          "Value": "i1qx0kf8ug"
         },
         {
           "Name": "label",
@@ -1440,7 +1461,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-iucqArIQFrcIK1qSosMJFVBBzbWzXQ+tH6MSDgaxj6M="
+          "Value": "sha256-FsI+05TohRNrO4Eu0ZhnComKYbdtNyvF43zgHsP2hSc="
         }
       ]
     },
@@ -6607,6 +6628,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-nqU1geVeMiF/f7z63HW8qjJz6+Juiy+s8u814ZAxNu0="
+        }
+      ]
+    },
+    {
+      "Route": "prof.0ri5qosfy2.jpg",
+      "AssetFile": "C:\\Users\\ZT\\source\\repos\\Expense Tracker\\Expense Tracker\\wwwroot\\prof.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "631182"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LCjT450TEb1czY9mImCasQjRtUTDaUM5kJpHC/oNc6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Sep 2024 17:19:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ri5qosfy2"
+        },
+        {
+          "Name": "label",
+          "Value": "prof.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LCjT450TEb1czY9mImCasQjRtUTDaUM5kJpHC/oNc6M="
+        }
+      ]
+    },
+    {
+      "Route": "prof.jpg",
+      "AssetFile": "C:\\Users\\ZT\\source\\repos\\Expense Tracker\\Expense Tracker\\wwwroot\\prof.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "631182"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LCjT450TEb1czY9mImCasQjRtUTDaUM5kJpHC/oNc6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Sep 2024 17:19:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LCjT450TEb1czY9mImCasQjRtUTDaUM5kJpHC/oNc6M="
         }
       ]
     }
